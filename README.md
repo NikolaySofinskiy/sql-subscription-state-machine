@@ -155,7 +155,8 @@ FROM classified_events
 WHERE event IS NOT NULL
 ORDER BY 
     customer_id ASC,
-    change_date ASC; ```
+    change_date ASC;
+```
 
 ## Используемый стек технологий
 * **СУБД:** PostgreSQL (решение совместимо с большинством современных реляционных СУБД)
